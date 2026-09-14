@@ -1,6 +1,6 @@
 [
   {
-    "query": "we're onboarding a new dev next week; can you go through the mm backend and describe what the service actually does, use-case by use-case, with diagrams",
+    "query": "we're onboarding a new dev next week; can you go through this Spring backend and describe what the service actually does, use-case by use-case, with diagrams",
     "should_trigger": true
   },
   {
@@ -12,7 +12,7 @@
     "should_trigger": true
   },
   {
-    "query": "what does RejectOrderUseCase do exactly? show me the sequence from controller to repository, only stuff you actually verified in the code",
+    "query": "what does the reject-order use case do exactly? show me the sequence from controller to repository, only stuff you actually verified in the code",
     "should_trigger": true
   },
   {
@@ -24,7 +24,7 @@
     "should_trigger": true
   },
   {
-    "query": "document the AcceptRoutedHubOrder flow as a mermaid diagram, grounded in real method names please, don't invent anything",
+    "query": "document the the accept-routed-hub-order flow as a mermaid diagram, grounded in real method names please, don't invent anything",
     "should_trigger": true
   },
   {
@@ -48,7 +48,7 @@
     "should_trigger": false
   },
   {
-    "query": "refactor OrderLifecycleService to use constructor injection consistently and extract a domain service",
+    "query": "refactor the order lifecycle service to use constructor injection consistently and extract a domain service",
     "should_trigger": false
   },
   {
