@@ -1,0 +1,82 @@
+[
+  {
+    "query": "we're onboarding a new dev next week; can you go through the mm backend and describe what the service actually does, use-case by use-case, with diagrams",
+    "should_trigger": true
+  },
+  {
+    "query": "draw the flow for what happens when an order gets executed in this backend - who calls who, include a sequence diagram",
+    "should_trigger": true
+  },
+  {
+    "query": "give me a table of every use case in this Spring app: name, command or query, which service implements it, and the REST endpoint that hits it",
+    "should_trigger": true
+  },
+  {
+    "query": "what does RejectOrderUseCase do exactly? show me the sequence from controller to repository, only stuff you actually verified in the code",
+    "should_trigger": true
+  },
+  {
+    "query": "map the architecture of this hexagonal backend for me - ports, adapters, and who calls whom",
+    "should_trigger": true
+  },
+  {
+    "query": "i think there might be dead code - are there any use case interfaces in the application layer that nothing actually calls?",
+    "should_trigger": true
+  },
+  {
+    "query": "document the AcceptRoutedHubOrder flow as a mermaid diagram, grounded in real method names please, don't invent anything",
+    "should_trigger": true
+  },
+  {
+    "query": "doing an architecture review of this ports-and-adapters codebase tomorrow; catalogue the inbound use-cases and their entry points",
+    "should_trigger": true
+  },
+  {
+    "query": "how do i add a new field to the order entity and expose it in the REST API?",
+    "should_trigger": false
+  },
+  {
+    "query": "write unit tests for AssignmentService with JUnit and Mockito",
+    "should_trigger": false
+  },
+  {
+    "query": "generate an OpenAPI spec from these controllers",
+    "should_trigger": false
+  },
+  {
+    "query": "draw an ER diagram of the database schema for this project",
+    "should_trigger": false
+  },
+  {
+    "query": "refactor OrderLifecycleService to use constructor injection consistently and extract a domain service",
+    "should_trigger": false
+  },
+  {
+    "query": "this class has a god-method; split execute() into smaller methods",
+    "should_trigger": false
+  },
+  {
+    "query": "what design pattern is this codebase using? explain hexagonal architecture to me in general",
+    "should_trigger": false
+  },
+  {
+    "query": "find all the places where we catch exceptions and log them inconsistently",
+    "should_trigger": false
+  },
+  {
+    "query": "draw a class diagram of the domain model (UML), not runtime interactions",
+    "should_trigger": false
+  },
+  {
+    "query": "audit the security config: which endpoints require auth and which are public?",
+    "should_trigger": false
+  },
+  {
+    "query": "switching teams next month - write up how the trading workflow in this backend hangs together so the next person understands it",
+    "should_trigger": true
+  },
+  {
+    "query": "which adapter calls which port when a client-side order gets rejected from the hub? walk me through it with a sequence diagram",
+    "should_trigger": true
+  }
+]
