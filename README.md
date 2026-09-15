@@ -42,3 +42,13 @@ See [skills/use-case-cartographer/SKILL.md](skills/use-case-cartographer/SKILL.m
 
 `evals/trigger_eval_set.json` contains a 20-query should/should-not-trigger
 set for evaluating the skill's description triggering.
+
+### test-loop
+
+Selects the narrowest test feedback loop for a change — unit /
+integration / e2e / architecture — using a category taxonomy with
+opt-in selection, a change-location → loop decision procedure, and a
+full-suite-runs-only-once-at-final-verification rule. The skill owns
+the procedure; each project declares its own loop map (categories,
+commands, module mapping) in its agent docs.
+See [skills/test-loop/SKILL.md](skills/test-loop/SKILL.md).
